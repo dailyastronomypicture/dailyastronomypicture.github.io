@@ -1,0 +1,52 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+header {
+  border-radius: 5px;
+  margin: 0 auto;
+  display: flex;
+  background: linear-gradient(to right, white, skyblue, black);
+}
+
+#dap {
+  transition: 300ms;
+  margin: 25px auto 25px 25px;
+  width: 100px;
+  max-width: 100%;
+}
+
+footer {
+  border-radius: 5px;
+  padding: 15px 0;
+  margin: 0 auto;
+  color: black;
+  background: linear-gradient(to right, white, skyblue, black);
+}
+
+footer nav ul li{
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+@media screen and (width < 798px){
+  #dap {
+    width: 50px;
+    height: 50px;
+    transition: 300ms;
+  }
+  h1{
+    transition: 300ms;
+    font-size: 1em;
+  }
+}

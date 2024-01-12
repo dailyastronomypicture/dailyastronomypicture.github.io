@@ -1,0 +1,86 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: white;
+  background-color: black;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: skyblue;
+  text-decoration: inherit;
+}
+a:hover {
+  color: white;
+  filter: drop-shadow(0 0 2px skyblue);
+  transition: 300ms;
+}
+
+a:not(:hover) {
+  transition: 300ms;
+}
+
+body {
+  margin: 0;
+  display: block;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  transition: 300ms;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid grey;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: skyblue;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 10px 10px;
+}
+button a {
+  color: black;
+}
+button:hover {
+  border-color: black;
+  transition: 300ms;
+}
+button:not(:hover) {
+  transition: 300ms;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+img {
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: black;
+    background-color: white;
+  }
+  button {
+    color: skyblue;
+    background-color: black;
+  }
+}
